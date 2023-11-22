@@ -1,0 +1,30 @@
+/*some style for app component*/
+
+#HeadButtons {
+
+}
+
+#SearchBoxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+#header {
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    color: black;
+    border-bottom: 5px;
+    border-bottom-style: groove;
+    border-color: black;
+}
+
+
+.item {
+    padding: 10px;
+    font-size: large;
+    flex-shrink: 0;
+}
